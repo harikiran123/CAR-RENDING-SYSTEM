@@ -12,7 +12,9 @@ char carbrand[10][20]={"HYUNDAI","SUZUKI","HONDA","TOYOTA","FORD","TATA","MERCED
 char carmodel[10][20]={"Veloster","Celerio","Civic","Avalon","Explorer","Safari","E-Class","Q3","D-MAX"};
 int carseat[10]={4,4,4,8,4,4,4,8,8,0};
 int carrentperday[10]={250,250,250,250,250,250,250,250,250,0};
-
+int carrentpermontly[12]={31,28,31,30,31,30,31,31,30,31,30,31};
+int z=0,u=0;
+struct car c,ca[10],cr[10],cn={0};
 void car_rent()
 {
     int i,f;
